@@ -168,6 +168,7 @@ header {
     float: right;
     list-style: none;
     margin-top: 55px;
+    word-spacing: 3px;
 }
 
 .main-nav li {
@@ -191,4 +192,27 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+/*-------------------------------------------------*/
+/* MEALS */
+/*-------------------------------------------------*/
 
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meals-showcase img {
+    width: 100%;
+    height: auto;
+}
